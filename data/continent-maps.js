@@ -7,10 +7,10 @@ const maps = [
     gameSettings: [
       {
         mode: 'NO MOVE',
-        duration: 30,
-        probability: 1
-      }
-    ]
+        duration: 40,
+        probability: 1,
+      },
+    ],
   },
   {
     id: 1,
@@ -20,10 +20,10 @@ const maps = [
     gameSettings: [
       {
         mode: 'NO MOVE',
-        duration: 30,
-        probability: 1
-      }
-    ]
+        duration: 40,
+        probability: 1,
+      },
+    ],
   },
   {
     id: 2,
@@ -33,10 +33,10 @@ const maps = [
     gameSettings: [
       {
         mode: 'NO MOVE',
-        duration: 30,
-        probability: 1
-      }
-    ]
+        duration: 40,
+        probability: 1,
+      },
+    ],
   },
   {
     id: 3,
@@ -46,10 +46,10 @@ const maps = [
     gameSettings: [
       {
         mode: 'NO MOVE',
-        duration: 30,
-        probability: 1
-      }
-    ]
+        duration: 40,
+        probability: 1,
+      },
+    ],
   },
   {
     id: 4,
@@ -59,15 +59,15 @@ const maps = [
     gameSettings: [
       {
         mode: 'NO MOVE',
-        duration: 30,
-        probability: 60
+        duration: 40,
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 40
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 40
+      // }
+    ],
   },
   {
     id: 5,
@@ -77,11 +77,11 @@ const maps = [
     gameSettings: [
       {
         mode: 'NO MOVE',
-        duration: 30,
-        probability: 1
-      }
-    ]
-  }
+        duration: 40,
+        probability: 1,
+      },
+    ],
+  },
 ];
 
 export default maps;

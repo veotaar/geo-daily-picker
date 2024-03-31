@@ -8,14 +8,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 1,
@@ -26,14 +26,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 2,
@@ -44,14 +44,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 3,
@@ -62,14 +62,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 4,
@@ -80,14 +80,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 5,
@@ -98,14 +98,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 6,
@@ -116,14 +116,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 7,
@@ -134,14 +134,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 8,
@@ -152,14 +152,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 9,
@@ -170,27 +170,27 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 10,
     name: 'IntersectionGuessr - Türkiye',
-    probability: 1,
+    probability: 0,
     url: '6294b7a25e5d9e8ad668e811',
     gameSettings: [
       {
         mode: 'MOVING',
         duration: 90,
-        probability: 1
-      }
-    ]
+        probability: 1,
+      },
+    ],
   },
   {
     id: 11,
@@ -201,14 +201,14 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
+        probability: 1,
       },
-      {
-        mode: 'MOVING',
-        duration: 90,
-        probability: 1
-      }
-    ]
+      // {
+      //   mode: 'MOVING',
+      //   duration: 90,
+      //   probability: 1,
+      // },
+    ],
   },
   {
     id: 12,
@@ -219,23 +219,28 @@ const maps = [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
-      }
-    ]
+        probability: 1,
+      },
+    ],
   },
   {
     id: 13,
     name: 'AI Generated Türkiye',
-    probability: 1,
+    probability: 2,
     url: '65f033d3d34dd58742aaffc1',
     gameSettings: [
       {
         mode: 'NO MOVE',
         duration: 60,
-        probability: 1
-      }
-    ]
-  }
+        probability: 80,
+      },
+      {
+        mode: 'NMPZ',
+        duration: 60,
+        probability: 20,
+      },
+    ],
+  },
 ];
 
 export default maps;
