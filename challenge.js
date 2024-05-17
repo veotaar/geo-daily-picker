@@ -22,9 +22,14 @@ export function setupChallenge(element) {
     challengeName.innerText = `${mapName} • ${mode} • ${timeLimit}s`;
     button.innerText = 'Challenge Seçildi';
     button.setAttribute('disabled', 'true');
-    mapLink.setAttribute('href', `https://www.geoguessr.com/maps/${map}`);
+    mapLink.setAttribute('href', `https://www.geoguessr.com/maps/${map}/play`);
     mapLink.innerText = mapName;
     challengeInfo.classList.remove('invisible');
+
+    setTimeout(() => {
+      button.removeAttribute('disabled')
+      button.innerText = 'Challenge Seç';
+    }, 500)
   };
 
   const copyChallengeName = async () => {

@@ -2,7 +2,7 @@ const maps = [
   {
     id: 0,
     name: 'A Community World',
-    probability: 14.14,
+    probability: 9.9,
     url: '62a44b22040f04bd36e8a914',
     gameSettings: [
       {
@@ -25,7 +25,7 @@ const maps = [
   {
     id: 1,
     name: 'AI Generated World',
-    probability: 14.14,
+    probability: 9.9,
     url: '5dbaf08ed0d2a478444d2e8e',
     gameSettings: [
       {
@@ -66,7 +66,7 @@ const maps = [
   {
     id: 3,
     name: 'An Improved World',
-    probability: 14.14,
+    probability: 9.9,
     url: '5b0a80f8596695b708122809',
     gameSettings: [
       {
@@ -84,7 +84,7 @@ const maps = [
   {
     id: 4,
     name: 'An Arbitrary World',
-    probability: 14.14,
+    probability: 9.9,
     url: '6089bfcff6a0770001f645dd',
     gameSettings: [
       {
@@ -102,7 +102,7 @@ const maps = [
   {
     id: 5,
     name: 'An Arbitrary Rural World',
-    probability: 14.14,
+    probability: 9.9,
     url: '643dbc7ccc47d3a344307998',
     gameSettings: [
       {
@@ -133,7 +133,7 @@ const maps = [
   {
     id: 7,
     name: 'Dirty World',
-    probability: 14.14,
+    probability: 9.9,
     url: '63f3ff1e0355e40ded075e0c',
     gameSettings: [
       {
@@ -164,7 +164,7 @@ const maps = [
   {
     id: 9,
     name: 'Less-Extreme Regionguessing',
-    probability: 14.14,
+    probability: 9.9,
     url: '658a3ef12255cca9e7f39c06',
     gameSettings: [
       {
@@ -176,6 +176,60 @@ const maps = [
         mode: 'NMPZ',
         duration: 40,
         probability: 20,
+      },
+    ],
+  },
+  {
+    id: 10,
+    name: 'Terminus',
+    probability: 9.9,
+    url: '64919f3c95165ff26469091a',
+    gameSettings: [
+      {
+        mode: 'NO MOVE',
+        duration: 40,
+        probability: 80,
+      },
+      {
+        mode: 'NMPZ',
+        duration: 40,
+        probability: 20,
+      },
+    ],
+  },
+  {
+    id: 11,
+    name: 'A Varied World',
+    probability: 9.9,
+    url: '64ce812adc7614680516ff8c',
+    gameSettings: [
+      {
+        mode: 'NO MOVE',
+        duration: 40,
+        probability: 80,
+      },
+      {
+        mode: 'NMPZ',
+        duration: 40,
+        probability: 20,
+      },
+    ],
+  },
+  {
+    id: 12,
+    name: 'IntersectionGuessr',
+    probability: 9.9,
+    url: '61325442eadbec00018b6385',
+    gameSettings: [
+      {
+        mode: 'NO MOVE',
+        duration: 40,
+        probability: 80,
+      },
+      {
+        mode: 'NMPZ',
+        duration: 40,
+        probability: 0,
       },
     ],
   },
