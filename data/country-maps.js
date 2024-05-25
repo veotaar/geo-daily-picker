@@ -234,11 +234,11 @@ const maps = [
         duration: 60,
         probability: 80,
       },
-      {
-        mode: 'NMPZ',
-        duration: 60,
-        probability: 20,
-      },
+      // {
+      //   mode: 'NMPZ',
+      //   duration: 60,
+      //   probability: 20,
+      // },
     ],
   },
 ];
